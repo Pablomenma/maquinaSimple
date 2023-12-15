@@ -29,7 +29,7 @@ public MaquinaExpendedoraSimple( int precio, String destino) {
         balanceClienteActual = 0;
         totalDineroAcumulado = 0;
         estacionOrigen = "León";
-        estacionDestino = "destino";
+        estacionDestino = destino;
     }
 
     
