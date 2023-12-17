@@ -74,5 +74,9 @@ public MaquinaExpendedoraSimple( int precio, String destino) {
     public int getTotalAcumulado() {
         return totalDineroAcumulado;
     }
+    public void setPrecioBillete (int precio) {
+        precioBillete= precio;
+    }
+
 }
 
