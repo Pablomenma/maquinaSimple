@@ -80,5 +80,9 @@ public MaquinaExpendedoraSimple( int precio, String destino) {
 public void reducirPrecio(int descuento) {
 precioBillete = precioBillete - descuento;
     }
+    public void vaciarDepositoDinero() {
+totalDineroAcumulado= 0;
+    }
+
 }
 
